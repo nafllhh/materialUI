@@ -1,0 +1,12 @@
+{
+    "window.zoomLevel": -1,
+    "editor.fontFamily": "JetBrains, Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true, // Override default value of false
+    "files.autoSaveDelay": 200,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "liveServer.settings.CustomBrowser":"chrome"
+
+}

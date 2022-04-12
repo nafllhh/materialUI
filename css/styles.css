@@ -1,0 +1,433 @@
+html,
+body{
+    font-family: Roboto;
+    color: #e3e5e9;
+    background-color: #242527;
+    margin: 0%;
+    font-size: 20px;
+    user-select: none;
+}
+.container {
+    margin: 6px;
+}
+a{
+    text-decoration: none;
+    color: #e3e5e9;
+}
+.top-logo {
+    padding-top: 13px;
+   margin-bottom: 40px;
+   z-index: 1;
+   overflow: hidden;
+   background-color: #242527;
+   position: fixed;
+   top: 0;
+   width: 100%;    
+   height:43px;
+
+}
+#top-id {
+    background-color: #2b2c2f;
+    margin-top: 0px;
+
+}
+.top-logo > span  {
+    font-family: Roboto;
+    
+    
+   
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 0;
+}
+
+.float-flex {
+    margin: 6px;
+    float: right;
+}
+.float-flex > a {
+   
+    
+    padding: 6px;
+    background-color: #393a3c00;
+    border-radius: 50px;
+    
+
+}
+.name-icon {
+
+}
+.top-nav{
+    z-index: 1;
+    overflow: hidden;
+    background-color: #2d2e31;
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+    
+    margin: 0px;
+    display: flex;
+    padding: 15px;
+    border-top: solid 0px #47484a;
+    font-size: 24px;
+    
+    
+    
+
+}
+#margin-topp{
+    margin-top: 70px;
+    margin-left: 10px;
+
+}
+.top-nav > a {
+    text-align: center;
+    flex: 20%;
+    padding: 2px 5px;
+    margin:0px 40px 0px 01px;
+    transition: 0.2s;
+}
+.top-nav > a:hover {
+    color:#e23e46 ;
+
+}
+.top-nav a.active {
+
+    background-color: #e23e46 ;
+    color:#242527 ;
+    border-radius: 23px;
+   
+    
+   
+    
+
+
+}
+.user-interface {
+    
+    text-align: center;
+    
+}
+
+.cover {
+    position: relative;
+    margin: 15px 11px;
+    padding-top: 170px ;
+    background-color: #393a3c;
+   /* background-image: url(/img/cover.png);*/
+    border-radius: 8px 8px 0px 0px ;
+    margin-bottom: 70px;
+    text-align: left;
+}
+.cover:hover {
+    background-color: #393a3c85;
+}
+.cover .float {
+    font-weight: bold;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+img.pp {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 90px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  
+
+
+    width: 150px;
+    border-radius: 100px;
+    border: solid 5px #242527;
+}
+.music{
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: left;
+    font-size: 17px;
+}
+.music > span{
+    font-size: 15px;
+    opacity: 70%;
+
+}
+.music > span.dot {
+    font-size: 15px;
+    float:right;
+    
+    margin-right: 18px;
+ 
+}
+.music > img {
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 40px;
+    float: left;
+
+}
+.hero > span {
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.button-flex {
+    
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-flex .side {
+    display: flex;
+    flex-direction: row;
+}
+.button-flex > div:not(.side) {
+    transition: 0.1s;
+    border-radius: 20px;
+    padding: 8px;
+    margin:6px;
+    background-color: #e23e46;
+}
+.button-flex > div:not(.side):hover{
+    
+    font-size: 19px;
+        background-color: #db4747;
+}
+.button-flex .side > div {
+    transition: 0.1s;
+    border-radius: 20px;
+    padding: 8px ;
+    flex: 90%;
+    margin:6px;
+    background-color: #393a3c;
+   
+}
+.button-flex .side > div:hover :not(div.mini) {
+    font-size: 20px;
+}
+.button-flex .side > div.mini {
+    flex:10%;
+}
+hr {
+    background-color: #47484a;
+    height: 1px;
+    border: none;
+ margin: 6px;
+}
+.link {
+    color: #e3e5e9d6;
+    display: flex;
+    font-size: 19px;
+   
+    
+    
+    flex-direction: column;
+}
+.link > a {
+   
+    
+    padding: 5px;
+
+}
+.hobby {
+    color: #e3e5e9d6;
+   
+    
+    width:fit-content;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+.hobby > a {
+    font-size: 16px;
+border-radius: 30px;
+    padding: 8px;
+    background-color: #393a3c5c;
+    margin: 4px;
+
+}
+.hobby > a:hover{
+    background-color: #393a3ca0;
+    
+}
+a.edit{
+    
+    font-size: 17px;
+    margin: 8px 5px;
+    border-radius: 20px;
+    display: flex;
+    color: #ff8282;
+    background-color: #db212140;
+    padding: 10px;
+    
+    font-weight: 500;
+
+}
+.flegs {
+    display: flex;
+    flex-direction: row;
+}
+.status {
+    margin-left: 6px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.status > img {
+
+    width: 45px;
+    float: left;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.status div.boxx {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 7px;
+    border-radius: 50px;
+    padding: 15px;
+    border: solid 1px #47484a;
+    flex: 100%;
+    
+    
+
+}
+#green {
+    flex: 5%;
+    font-size: 23px ;
+    color: rgb(16, 171, 16);
+    margin:20px;
+}
+#blue {
+    color: rgb(26, 97, 251);
+
+}
+#red {
+    color: rgb(205, 60, 60);
+
+}
+#purple{
+    color: #8955a1;
+    
+}
+.misc {
+
+    margin-top: 5px;
+ display: flex;
+ flex-direction: row;
+ background-color: #3f4042;
+ border-radius: 30px;
+ margin: 8px 8px;
+}
+.misc > div {
+    margin: 8px;
+    margin-right: 10px;
+    padding: 6px 13px;
+    border-radius: 30px;
+    background-color: #333436;
+}
+.story {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    background-color: #242527;
+    
+}
+.story > div:not(.vert) {
+    margin: 8px;
+    margin-right: 10px;
+    padding: 6px 13px;
+    border-radius: 30px;
+    transition: 0.3s;
+    
+    
+}
+.vert {
+    display: flex;
+    flex-direction: row;
+   
+    
+
+}
+.vert > div {
+    margin: 10px;
+    
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #333436;
+    height: 150px;
+    flex: 20%;
+    text-align: center;
+    
+}
+.story > div.active:not(.vert) {
+    color:#fc7474;
+    background-color: #512727;
+    
+    
+
+}
+.story > div:hover {
+    color:#74b3fc;
+    background-color: #273951;
+}
+hr.sep {
+    margin: 0px 10px;
+    background-color: #18191b79;
+    height: 10px;
+    border: none;
+    border-radius: 30px;
+    
+}
+.post :not(img){
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.post > img {
+    float: left;
+    border-radius: 50px;
+    width: 55px;
+    margin: 5px;
+}
+span.uname {
+    padding-bottom: 1px;
+    
+    font-weight: 700;
+    font-size: 23px;
+}
+span.info {
+    color: #e3e5e9a4;
+    font-size: 17px;
+}
+.contentt {
+    
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 9px;
+}
+.contentt > img {
+    width: 100%;
+    margin-top: 10px;
+
+}
+.footer {
+    margin-bottom: 70px;
+
+}
+
+
