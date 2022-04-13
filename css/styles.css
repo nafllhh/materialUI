@@ -296,6 +296,7 @@ a.edit{
     
 }
 .status div.boxx {
+    font-size: 19px;;
     margin-top: 4px;
     margin-left: 10px;
     margin-right: 7px;
@@ -326,11 +327,11 @@ a.edit{
     
 }
 .misc {
-
+    font-size: 19px;
     margin-top: 5px;
  display: flex;
  flex-direction: row;
- background-color: #3f4042;
+ background-color: #3f404246;
  border-radius: 30px;
  margin: 8px 8px;
 }
@@ -339,7 +340,7 @@ a.edit{
     margin-right: 10px;
     padding: 6px 13px;
     border-radius: 30px;
-    background-color: #333436;
+    background-color: #343639;
 }
 .story {
     font-size: 18px;
@@ -384,8 +385,8 @@ a.edit{
 
 }
 .story > div:hover {
-    color:#74b3fc;
-    background-color: #273951;
+    color:#fc7474;
+    background-color: #512727;
 }
 hr.sep {
     margin: 0px 10px;
@@ -403,9 +404,10 @@ hr.sep {
 }
 .post > img {
     float: left;
-    border-radius: 50px;
+    border-radius: 17px;
     width: 55px;
     margin: 5px;
+    
 }
 span.uname {
     padding-bottom: 1px;
@@ -419,6 +421,8 @@ span.info {
 }
 .contentt {
     
+    
+    
     line-height: 30px;
     font-size: 20px;
     margin-top: 16px;
@@ -427,6 +431,8 @@ span.info {
 .contentt > img {
     width: 100%;
     margin-top: 10px;
+    border: 1px solid #eaeaea27;
+    border-radius: 20px;
    
 }
 .notif-section {
