@@ -231,6 +231,8 @@ hr {
     color: #e3e5e9d6;
     display: flex;
     font-size: 19px;
+    margin-left: 8px;
+    line-height: 1.8;
    
     
     
@@ -264,17 +266,17 @@ border-radius: 30px;
     background-color: #393a3ca0;
     
 }
-a.edit{
+#edit{
     
-    font-size: 17px;
+    font-size: 19px;
     margin: 8px 5px;
     border-radius: 20px;
-    display: flex;
+    
     color: #ff8282;
     background-color: #db212140;
-    padding: 10px;
+    padding: 9px;
     
-    font-weight: 500;
+
 
 }
 .flegs {
@@ -367,7 +369,7 @@ a.edit{
 
 }
 .vert > div {
-    margin: 10px;
+    margin: 10px 10px;
     
     padding: 10px 10px;
     border-radius: 20px;
@@ -406,7 +408,8 @@ hr.sep {
     float: left;
     border-radius: 17px;
     width: 55px;
-    margin: 5px;
+    margin-right: 10px;
+    margin-left: 8px;
     
 }
 span.uname {
@@ -427,6 +430,7 @@ span.info {
     font-size: 20px;
     margin-top: 16px;
     margin-left: 9px;
+    margin-right: 10px;
 }
 .contentt > img {
     width: 100%;
@@ -469,4 +473,50 @@ span.info {
     
     margin-bottom: 70px;
 }
-
+.fl {
+    margin: 25px 8px;
+    color: #e3e5e981;
+    
+    
+}
+.fl span:not(.float, .name) {
+    font-size: 25px;
+    font-weight: 700;
+    color: #e3e5e9;
+}
+.fl span.float {
+    color: #833737;
+    float: right;
+}
+.fl .flex {
+    display: flex;
+    flex-direction: row;
+    
+}
+.fl .flex > div {
+    margin-top: 15px;
+    flex: 10%;
+   
+}
+.fl .flex > div span {
+    font-size: 20px;
+    margin-left: 8px;
+    line-height: 1.8;
+      
+}
+.fl .flex > div img {
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 16px;
+    
+   
+   
+}
+.button {
+    background-color: #393a3c;
+    padding: 8px;
+    text-align: center;
+    margin:10px 0px ;
+    color: #e3e5e9;
+    border-radius: 30px;
+}
