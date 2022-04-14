@@ -495,7 +495,8 @@ span.info {
 }
 .fl .flex > div {
     margin-top: 15px;
-    flex: 10%;
+    flex: 20%;
+   
    
 }
 .fl .flex > div span {
@@ -505,7 +506,7 @@ span.info {
       
 }
 .fl .flex > div img {
-    width: 100px;
+    width: 88px;
     border-radius: 20px;
     margin-right: 16px;
     
